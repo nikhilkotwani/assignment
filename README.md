@@ -6,11 +6,11 @@ The Architecture involves , two web servers hosting the IIS application will res
 
 The template involves :
 1.) Asking the user to mention the CIDR for:
-    VPC (default is 192.180.0.0/16)\n
-    Public subnet 1 (default is 192.180.10.0/24)\n
-    Public subnet 2 (default is 192.180.20.0/24)\n
-    Web subnet 1/Private Subnet 1 ( default is 192.180.11.0/24)\n
-    Web subnet 2 / Privae Subnet 2 ( default is  192.180.21.0/24)\n
+    VPC (default is 192.180.0.0/16)  
+    Public subnet 1 (default is 192.180.10.0/24)  
+    Public subnet 2 (default is 192.180.20.0/24)  
+    Web subnet 1/Private Subnet 1 ( default is 192.180.11.0/24)  
+    Web subnet 2 / Privae Subnet 2 ( default is  192.180.21.0/24)  
 
 2.) The VPC name is also asked ( default is OPS)
 
