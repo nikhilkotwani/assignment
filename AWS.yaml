@@ -349,7 +349,7 @@ Resources:
       HealthCheckProtocol: HTTPS
       HealthCheckTimeoutSeconds: 10
       HealthyThresholdCount: 4
-      HealthCheckPath: /abc.html
+      HealthCheckPath: /iisstart.htm
       Name: !Join [ "-", [ !Ref VPCName, trg1 ] ]
       Port: 443
       Protocol: HTTPS
