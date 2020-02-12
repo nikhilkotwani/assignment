@@ -51,6 +51,7 @@ The template involves :
 •	SGalbext1 --> This is the security group which the albext is associate to.  
 •	SGexternalWebserver --> This is the security group which is associated to the two EC2 instances in WebSubnetA and B.  
 •	SGrdgwserveraccess --> This is the security group to which the above two jump servers are associated.  
+•	S3configbucket --> This creates an S3 bucket which is to be used to copy application package onto the instance and run powershell command  to deploy the application within the user-data section of the template.
 
 # Post Environment Build
 

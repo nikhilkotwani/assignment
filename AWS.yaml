@@ -278,7 +278,7 @@ Resources:
     Properties:
       SubnetId: !Ref WebSubnetA
       InstanceType: t2.medium
-      ImageId: ami-0d740b96c9b6cc5a7
+      ImageId: ami-0d6ce50610a81b399
       IamInstanceProfile: !Ref EC2WebRoleProfile
       SecurityGroupIds:
       - !GetAtt SGexternalWebserver.GroupId
@@ -295,7 +295,7 @@ Resources:
     Properties:
       SubnetId: !Ref WebSubnetB
       InstanceType: t2.medium
-      ImageId: ami-0d740b96c9b6cc5a7
+      ImageId: ami-0d6ce50610a81b399
       IamInstanceProfile: !Ref EC2WebRoleProfile
       SecurityGroupIds:
       - !GetAtt SGexternalWebserver.GroupId
