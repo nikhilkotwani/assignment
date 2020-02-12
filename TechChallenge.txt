@@ -1,0 +1,26 @@
+Technical Evaluation:
+
+This exercise is for you to build, deploy and host the following .Net Framework application on AWS:
+https://github.com/opserver/Opserver
+
+Note: there's been some feedback that the cmd line tools don't build this in the default configuration. It is recommended that you utilise Visual Studio (ideally 2013).
+
+Please do as much as you can in ~4 hours (it's not expected that there is time to complete 100% of this project), (as built) documentation should be updated as you go and should be emailed as part of your completion of the project and with an outline of next steps for the areas you did not have a chance to complete.
+
+We're specifically interested in the web console part of the application and want this presented as a HA/redundant & scalable application (even though the underlying app doesn't necessarily support this please mock up the infrastructure as if it does - document what would need to be done to make the application scalable).
+
+This should be deployed in a VPC with private, class-C subnet, but accessible via public IP.
+
+Should be available via SSL/TLS with a configured Domain ( can use .tk or another similar free domain service).
+
+Monitoring and logging should be configured.
+
+Configuration/Infrastructure deployment should be captured in CloudFormation (or other tool of your choosing).
+
+If time remains, any windows instances, should be enrolled in AD and the OpServer application authentication should be configured to use AD.
+
+Further, an additional service, serving publically accessible static content is required, under the same domain, with the Web Team (user JaneBloggs) provided access to upload content to this service.
+
+If time remains, you can configure the OpServer application to monitor as much of the AWS infrastructure you've setup as possible.
+
+Please ask any questions if you require further clarification.
